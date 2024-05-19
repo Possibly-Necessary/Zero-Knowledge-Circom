@@ -25,8 +25,7 @@ template NOT() {
     out <== 1 - a;
 }
 
-
-// Using the operations above, construct the clauses 
+// Using the operations above, construct the clauses for the Boolean formula => (a or ~b or c) and (~a or b or ~d) and (b or z)
 
 // Clause 1 after simplification: C1 = 1 - b + ab + cb - abc
 template Clause1() {
