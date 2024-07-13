@@ -65,5 +65,5 @@ template HashCommitPoly(){
 
 }
 
-// Call the ZK circuit and declaring the input g as public -- by default, all input signals are private
+// Call the ZK circuit and declare the input g as public -- by default, all input signals are private
 component main {public [g]} = HashCommitPoly(); 
