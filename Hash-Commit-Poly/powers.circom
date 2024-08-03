@@ -61,7 +61,7 @@ template HashCommitPoly(){
     // Compute the polynomial
     temp1 <== k*k;
     temp2 <== temp1 * k;
-    p <== 5*temp2+2*temp2+k+3;
+    p <== 5*temp2+2*temp2+k+3;   //------> Need to fix this and recompute the whole proof; should be p <== 5*temp2+2*temp1+k+3
 
 }
 
