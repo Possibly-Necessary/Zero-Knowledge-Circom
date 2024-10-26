@@ -32,7 +32,7 @@ template SquareMult(N){ // Template accepts N bit binray length
     out <== arr[N - 1];
 }
 
-// Identity Circuit/template computes the user's identity I = g^(sku) mod p, where sku is the secret key of the user
+// Identity Circuit/template computes the user's identity I = g^(sku) mod p, where sku is the secret key of the user --- from section 4.3
 
 template Identity(){
 
