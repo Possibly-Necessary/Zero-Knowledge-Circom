@@ -70,7 +70,7 @@ squareMult.power <== r;
 
 gr <== squareMult.out;
 
-// Compute Y^sku
+// Compute Y^sku mod p
 squareMult.base <== Y;
 squareMult.power <== sku;
 
