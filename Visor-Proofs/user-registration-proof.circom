@@ -76,7 +76,7 @@ squareMult.power <== sku;
 
 Ysku <== squareMult.out;
 
-C <== gr * Ysku; // (gr * Ysku) mode p
+C <== gr * Ysku; // (gr * Ysku) mod p
 
 }
 
